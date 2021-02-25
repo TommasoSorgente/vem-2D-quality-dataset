@@ -1,7 +1,7 @@
 # vem-quality-dataset
 
 Datasets used for "The role of mesh quality and mesh quality indicators in the Virtual Element Method" by T. Sorgente, S. Biasotti, G. Manzini and M. Spagnuolo, https://arxiv.org/abs/2102.04138.
-
+These datasets have been created through the generation algorithms presented in the Appendix B of the paper.
 
 ## Content
 The files are organized in folders corresponding to the different generation techniques and subfolders relative to the different datasets.
