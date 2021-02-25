@@ -9,7 +9,7 @@ Each dataset is composed of a collection of .off or .obj files numbered increasi
 
 In "png_previews" there are visual representations of all the datasets: each image shows a selection of four meshes from that dataset, with decreasing meshsize.
 
-All the datasets (but not the preview images) are archived in the zip file "All_Datasets". For linux and mac user there should be no problem in unzipping the files; for windows any 7zip equivalent works fine.
+All the datasets (but not the preview images) are archived in the zip file "All_Datasets". For linux and mac users there should be no problem in unzipping the files; for windows any 7zip equivalent works fine.
 
 Here a complete list of the content of each folder:
 - Reference: folder containing the reference dataset D_Triangle.
