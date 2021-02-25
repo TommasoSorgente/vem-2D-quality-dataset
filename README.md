@@ -1,6 +1,6 @@
 # vem-quality-dataset
 
-Datasets used for "The role of mesh quality and mesh quality indicators in the Virtual Element Method" by T. Sorgente, S. Biasotti, G. Manzini and M. Spagnuolo.
+Datasets used for "The role of mesh quality and mesh quality indicators in the Virtual Element Method" by T. Sorgente, S. Biasotti, G. Manzini and M. Spagnuolo, https://arxiv.org/abs/2102.04138.
 
 
 ## Content
@@ -22,14 +22,16 @@ Here a complete list of the content of each folder:
 ## Citing us
 If you use one or more datasets in your academic projects, please consider citing the original paper using the following BibTeX entry:
 
-```bibtex
-@article{sorgente2021role,
-  title={The role of mesh quality and mesh quality indicators in the Virtual Element Method},
-  author={Sorgente, Tommaso and Biasotti, Silvia and Manzini, Gianmarco and Spagnuolo, Michela},
-  journal={arXiv preprint arXiv:2102.04138},
-  year={2021}
+```
+@misc{sorgente2021role,
+      title={The role of mesh quality and mesh quality indicators in the Virtual Element Method}, 
+      author={Tommaso Sorgente and Silvia Biasotti and Gianmarco Manzini and Michela Spagnuolo},
+      year={2021},
+      eprint={2102.04138},
+      archivePrefix={arXiv},
+      primaryClass={math.NA}
 }
 ```
 
 ## Acknowldegment
-This paper has been realized in the framework of ERC Project CHANGE (https://cordis.europa.eu/project/id/694515), which has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement No 694515).
+This research has been supported bt the ERC Project CHANGE (https://cordis.europa.eu/project/id/694515), which has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement No 694515).
