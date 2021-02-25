@@ -2,6 +2,8 @@
 
 Datasets used for "The role of mesh quality and mesh quality indicators in the Virtual Element Method" by T. Sorgente, S. Biasotti, G. Manzini and M. Spagnuolo.
 
+
+## Content
 The files are organized in folders corresponding to the different generation techniques and subfolders relative to the different datasets.
 Each dataset is composed of a collection of .off or .obj files numbered increasingly as "Namestep.obj/off", being "Name" the name of the dataset and "step" the refinement step. For example, the first mesh of dataset D_Maze is "Maze0.obj".
 
