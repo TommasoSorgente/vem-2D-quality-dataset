@@ -1,7 +1,16 @@
 # vem-quality-dataset
 
-Dataset of "A preliminary analysis of methods for curvature estimation on surfaces with local reliefs" by Elia Moscoso Thompson, Silvia Biasotti
+Datasets used for "The role of mesh quality and mesh quality indicators in the Virtual Element Method" by T. Sorgente, S. Biasotti, G. Manzini and M. Spagnuolo.
 
-ply_models: folder of the 7 ply models used in [1]. Models are rotated and scaled as in Figure 2 of [1]. The models are represented by triangulations. All the models but model7 have no boundary. All the models have one shell and no handles. The files are archived in a splitted zip file due to the upload size limitation of GitHub. For linux and mac user, there should be no problem in unzipping the files. For windows, any 7zip equivalent works fine.
-png_previews: folder of the 7 png images of the models in ply_models.
-REFERENCE: [1] - Elia Moscoso Thompson, Silvia Biasotti: "A preliminary analysis of methods for curvature estimation on surfaces with local reliefs", EG2019 proceedings, Genoa, 2019
+The files are organized in folders corresponding to the different generation techniques and subfolders relative to the different datasets used in [1].
+Each dataset is composed of a collection of .off or .obj files numbered increasingly as "Namestep.obj/off", being "Name" the name of the dataset and "step" the refinement step. For example, the first mesh of dataset D_Maze is "Maze0.obj".
+In "png_previews" there are visual representations of all the datasets: each image shows a selection of four meshes from that dataset, with decreasing meshsize.
+
+Here a complete list of the content of each folder:
+- Reference: folder containing the reference dataset D_Triangle.
+- Hybrid: folder containing the hybrid datasets D_Maze and D_Star.
+- Mirroring: folder containing the mirroring datasets D_Jenga, D_Slices and D_Ulike.
+- Mirroring_x4: folder containing the multiple mirroring datasets D_Jenga4, D_Slices4 and D_Ulike4.
+- png_previews: folder containing the png preview images of the datasets. 
+
+REFERENCE: [1] - Sorgente, Tommaso, et al. "The role of mesh quality and mesh quality indicators in the Virtual Element Method." arXiv preprint arXiv:2102.04138 (2021).
