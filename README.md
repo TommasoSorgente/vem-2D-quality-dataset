@@ -1,6 +1,6 @@
 # vem-quality-dataset
 
-Datasets used for "The role of mesh quality and mesh quality indicators in the Virtual Element Method" by T. Sorgente, S. Biasotti, G. Manzini and M. Spagnuolo, https://arxiv.org/abs/2102.04138.
+Datasets used for "The role of mesh quality and mesh quality indicators in the Virtual Element Method" by T. Sorgente, S. Biasotti, G. Manzini and M. Spagnuolo.
 These datasets have been created through the generation algorithms presented in the Appendix B of the paper.
 
 ## Content
@@ -21,13 +21,15 @@ Here a complete list of the content of each folder:
 If you use one or more datasets in your academic projects, please consider citing the original paper using the following BibTeX entry:
 
 ```
-@misc{sorgente2021role,
-      title={The role of mesh quality and mesh quality indicators in the Virtual Element Method}, 
-      author={Tommaso Sorgente and Silvia Biasotti and Gianmarco Manzini and Michela Spagnuolo},
-      year={2021},
-      eprint={2102.04138},
-      archivePrefix={arXiv},
-      primaryClass={math.NA}
+@article{sorgente2022role,
+  title={The role of mesh quality and mesh quality indicators in the virtual element method},
+  author={Sorgente, Tommaso and Biasotti, Silvia and Manzini, Gianmarco and Spagnuolo, Michela},
+  journal={Advances in Computational Mathematics},
+  volume={48},
+  number={1},
+  pages={1--34},
+  year={2022},
+  publisher={Springer}
 }
 ```
 
